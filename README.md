@@ -1,27 +1,19 @@
-# 華泰文化教育解決方案顧問｜靜態網站
+# 華泰文化教育解決方案顧問網站
 
-## 部署到 GitHub Pages
+靜態響應式網站，可部署至 GitHub Pages。首頁使用使用者提供的華泰文化 Logo 與顧問形象照，均放在 `assets/` 資料夾。
 
-1. 解壓縮 ZIP，將 `index.html`、`styles.css`、`script.js` 放在 GitHub 儲存庫根目錄。
-2. 開啟儲存庫 Settings → Pages。
-3. Build and deployment 選擇 Deploy from a branch，Branch 選 `main`，資料夾選 `/ (root)`，按 Save。
-4. 部署完成後，使用 GitHub Pages 提供的網址開啟。
+## 部署
+1. 將 ZIP 解壓縮。
+2. 將 `index.html`、`styles.css`、`script.js`、`assets/` 上傳至 GitHub 儲存庫根目錄。
+3. 在 Settings > Pages > Build and deployment 選擇 Deploy from a branch、main、/(root)。
+4. 等待 GitHub Pages 完成部署。
 
-## 網站維護
+請在公開前確認 Logo 與肖像使用授權，以及各項服務的業務合作範圍。網站為個人顧問展示頁，非公司官方首頁。未設定個人電話與電子郵件。
 
-- 個人聯絡資料尚未填入。可修改 `index.html` 的 `#contact` 區塊，加入經本人確認的電子郵件與電話。
-- 品牌商標未使用，示意視覺由 CSS 製作。正式上線前請依公司規範確認品牌名稱及身分表述。
-- Google Fonts 需連線載入，無網路時會使用系統字型。
-- 洽詢按鈕只複製文字範本，不會收集、傳送或儲存個資。
 
-## 資料參考
-
-- 華泰文化：https://www.hwatai.com.tw/
-- McGraw Hill Connect：https://www.mheducation.com/highered/connect.html
-- Cambridge ELT：https://www.cambridge.org/elt/
-- 華泰領思：https://linguaskill.hwatai.com.tw/
-- BenQ 教育大屏：https://www.benq.com/zh-tw/education/benq-board-interactive-displays.html
-- BenQ 高教：https://www.benq.com/zh-tw/education/higher-education-solution.html
-- 永信 HAC：https://www.hacsquare.com/
-
-本網站為個人顧問展示稿，非公司官方網站。具體產品與合作範圍須由權責單位確認。
+## 業務聯絡資料（2026-10-30 更新）
+- 電子郵件：sales8@hwatai.com.tw
+- 行動電話：0919-388-237
+- LINE ID：weichun_chang（提供複製按鈕）
+- Connect、BenQ 教育互動顯示器、BenQ 無線投影、永信 HAC、Cambridge ELT 均已改為指定推廣連結。
+- 本版本保留原有 Logo、形象照與響應式設計。
